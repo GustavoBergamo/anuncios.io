@@ -35727,11 +35727,11 @@ R(a9){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5,a6=null,a7=A.a
 a7=a8==null?a7.c:a8
 a8=A.ac1("lib/latam.png",32)
 s=t.af
-a8=A.abh(A.d([A.afF(B.Nu,new A.a6L(this)),B.iW,B.N3,B.iW,A.afF(B.Nx,new A.a6M(this)),B.iW],s),a7,B.kH,a8)
-a7=A.d([A.abZ(A.aA(255,3,6,83),a6,B.h6,B.q1,B.Ac,40,a6,new A.a6N(a9),a6,a6,"Tabela de v\xf4os"),B.N_,A.abZ(A.aA(255,3,6,83),a6,B.h6,B.q1,B.Ad,40,a6,new A.a6Y(a9),a6,a6,"Tabela de servi\xe7os"),B.N2],s)
+a8=A.abh(A.d([A.afF(B.Nt,new A.a6L(this)),B.iW,B.N3,B.iW,A.afF(B.Nx,new A.a6M(this)),B.iW],s),a7,B.kH,a8)
+a7=A.d([A.abZ(A.aA(255,3,6,83),a6,B.h6,B.q1,B.Ac,40,a6,new A.a6N(a9),a6,a6,"Tabela de v\xf4os"),B.N_,A.abZ(A.aA(255,3,6,83),a6,B.h6,B.q1,B.Ad,40,a6,new A.a6Y(a9),a6,a6,"Tabela de servi\xe7os"),B.N1],s)
 r=A.aJ([null,0],t.LO,t.S)
-q=A.acu(A.d([A.hO(B.No,new A.a73()),A.hO(B.Ns,new A.a74()),A.hO(B.Np,new A.a75()),A.hO(B.Nv,new A.a76()),A.hO(B.NA,new A.a77())],s),B.bn,B.ia,B.eI)
-p=A.acu(A.d([A.hO(B.Nr,new A.a78()),A.hO(B.Nz,new A.a79()),A.hO(B.Nq,new A.a6O()),A.hO(B.Nt,new A.a6P()),A.hO(B.Ny,new A.a6Q()),A.hO(B.Nw,new A.a6R())],s),B.bn,B.ia,B.eI)
+q=A.acu(A.d([A.hO(B.Nr,new A.a73()),A.hO(B.Np,new A.a74()),A.hO(B.Nw,new A.a75()),A.hO(B.Nu,new A.a76()),A.hO(B.NA,new A.a77())],s),B.bn,B.ia,B.eI)
+p=A.acu(A.d([A.hO(B.Nq,new A.a78()),A.hO(B.Nz,new A.a79()),A.hO(B.No,new A.a6O()),A.hO(B.Ns,new A.a6P()),A.hO(B.Ny,new A.a6Q()),A.hO(B.Nv,new A.a6R())],s),B.bn,B.ia,B.eI)
 o=$.aeo()
 n=A.hI(new A.a6S(),1)
 m=$.aek()
@@ -35921,12 +35921,12 @@ A.mC.prototype={
 ai(){return new A.NZ()}}
 A.NZ.prototype={
 R(a){var s=null
-return A.acw(A.abh(s,s,s,B.Nf),A.ag8(A.AQ(A.ac1("lib/tabela_servico.png",s),s,s),5,0.1),s)}}
+return A.acw(A.abh(s,s,s,B.Ne),A.ag8(A.AQ(A.ac1("lib/tabela_servico.png",s),s,s),5,0.1),s)}}
 A.mD.prototype={
 ai(){return new A.O_()}}
 A.O_.prototype={
 R(a){var s=null
-return A.acw(A.abh(s,s,s,B.Na),A.ag8(A.AQ(A.ac1("lib/tabela_voos.png",s),s,s),5,0.1),s)}}
+return A.acw(A.abh(s,s,s,B.N9),A.ag8(A.AQ(A.ac1("lib/tabela_voos.png",s),s,s),5,0.1),s)}}
 A.a1A.prototype={
 gI(){var s=this,r=s.d
 return r==null?s.d=B.d.ao(s.a,s.b,s.c):r},
@@ -70834,11 +70834,11 @@ B.LU=new A.j(!0,B.m,null,".AppleSystemUIFont",null,null,null,null,null,null,null
 B.J7=new A.j(!0,B.m,null,".AppleSystemUIFont",null,null,null,null,null,null,null,null,null,null,null,null,null,B.e,null,null,null,"blackRedwoodCity labelSmall",null,null,null,null)
 B.MZ=new A.cE(B.KP,B.JO,B.KQ,B.Lg,B.Jv,B.JD,B.K5,B.Lb,B.Kh,B.LC,B.J0,B.Ji,B.Lz,B.LU,B.J7)
 B.N_=new A.c7("V\xf4os",null,null,B.cv,null)
-B.N2=new A.c7("Servi\xe7os",null,null,B.cv,null)
+B.N1=new A.c7("Servi\xe7os",null,null,B.cv,null)
 B.LL=new A.j(!0,B.j,null,null,null,null,null,B.n,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.N3=new A.c7("Fonte",null,B.LL,null,null)
-B.Na=new A.c7("Tabela de v\xf4os",null,null,null,null)
-B.Nf=new A.c7("Servi\xe7os",null,null,null,null)
+B.N9=new A.c7("Tabela de v\xf4os",null,null,null,null)
+B.Ne=new A.c7("Servi\xe7os",null,null,null,null)
 B.PO=new A.a2v(0,"system")
 B.F1=new A.o(0.056,0.024)
 B.Fa=new A.o(0.108,0.3085)
@@ -70858,30 +70858,30 @@ B.bW=new A.wu(1,"lighter")
 B.ba=new A.wu(2,"nearer")
 B.Nm=new A.ww(null,null,null,null,null,null,null,null,null,null)
 B.Nn=new A.a2A(1,"longPress")
-B.N4=new A.c7("Embarque",null,null,null,null)
-B.No=new A.da("Embarque",B.N4,null)
-B.N8=new A.c7("Vapes",null,null,null,null)
-B.Np=new A.da("Bebidas Alc\xf3olicas",B.N8,null)
-B.N0=new A.c7("P\xf3s-pouso",null,null,null,null)
-B.Nq=new A.da("Ap\xf3s o pouso",B.N0,null)
-B.N6=new A.c7("Wifi",null,null,null,null)
-B.Nr=new A.da("Wifi",B.N6,null)
-B.Ne=new A.c7("Abastecimento",null,null,null,null)
-B.Ns=new A.da("Abastecimento",B.Ne,null)
-B.N5=new A.c7("Cgh",null,null,null,null)
-B.Nt=new A.da("Conex\xf5es em Cgh",B.N5,null)
-B.Nb=new A.c7("-",null,B.j1,null,null)
-B.Nu=new A.da("Diminuir fonte",B.Nb,null)
+B.N7=new A.c7("Pouso",null,null,null,null)
+B.No=new A.da("Ap\xf3s o pouso",B.N7,null)
+B.Nb=new A.c7("Abast",null,null,null,null)
+B.Np=new A.da("Abastecimento",B.Nb,null)
+B.N5=new A.c7("Wifi",null,null,null,null)
+B.Nq=new A.da("Wifi",B.N5,null)
+B.N8=new A.c7("Emb",null,null,null,null)
+B.Nr=new A.da("Embarque",B.N8,null)
+B.N4=new A.c7("Cgh",null,null,null,null)
+B.Ns=new A.da("Conex\xf5es em Cgh",B.N4,null)
+B.Na=new A.c7("-",null,B.j1,null,null)
+B.Nt=new A.da("Diminuir fonte",B.Na,null)
 B.Ng=new A.c7("Sarampo",null,null,null,null)
-B.Nv=new A.da("Sarampo",B.Ng,null)
-B.N9=new A.c7("Demonstra\xe7\xe3o",null,null,null,null)
-B.Nw=new A.da("Demonstra\xe7\xe3o de Seguran\xe7a",B.N9,null)
+B.Nu=new A.da("Sarampo",B.Ng,null)
+B.Nf=new A.c7("Demo",null,null,null,null)
+B.Nv=new A.da("Demonstra\xe7\xe3o de Seguran\xe7a",B.Nf,null)
+B.N2=new A.c7("Vape",null,null,null,null)
+B.Nw=new A.da("Bebidas Alc\xf3olicas e Vape",B.N2,null)
 B.Nc=new A.c7("+",null,B.j1,null,null)
 B.Nx=new A.da("Aumentar fonte",B.Nc,null)
-B.N1=new A.c7("Gru",null,null,null,null)
-B.Ny=new A.da("Conex\xf5es em Gru",B.N1,null)
-B.N7=new A.c7("Pr\xe9-pouso",null,null,null,null)
-B.Nz=new A.da("Preparar para o pouso",B.N7,null)
+B.N0=new A.c7("Gru",null,null,null,null)
+B.Ny=new A.da("Conex\xf5es em Gru",B.N0,null)
+B.N6=new A.c7("Pr\xe9-pouso",null,null,null,null)
+B.Nz=new A.da("Preparar para o pouso",B.N6,null)
 B.Nd=new A.c7("Cintos off",null,null,null,null)
 B.NA=new A.da("Soltar Cintos",B.Nd,null)
 B.vQ=new A.wy(0,"identity")
