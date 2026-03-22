@@ -167,158 +167,156 @@ class _MyHomePageState extends State<MyHomePage> {
         child: Flex(
           direction: Axis.vertical,
           children: <Widget>[
-            Row(
-              mainAxisAlignment: MainAxisAlignment.center,
+            SingleChildScrollView(
+              scrollDirection: Axis.horizontal,
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  TextButton(
+                    onPressed: () {
+                      Scrollable.ensureVisible(
+                        embarque.currentContext!,
+                        duration: const Duration(milliseconds: 500),
+                        curve: Curves.easeOut,
+                      );
+                    },
+                    child: const Tooltip(
+                      message: "Embarque",
+                      child: Text('Embarque'),
+                    ),
+                  ),
+                  TextButton(
+                    onPressed: () {
+                      Scrollable.ensureVisible(
+                        abastecimento.currentContext!,
+                        duration: const Duration(milliseconds: 500),
+                        curve: Curves.easeOut,
+                      );
+                    },
+                    child: const Tooltip(
+                      message: "Abastecimento",
+                      child: Text('Abastecimento'),
+                    ),
+                  ),
+                  TextButton(
+                    onPressed: () {
+                      Scrollable.ensureVisible(
+                        bebidasAlcoolicas.currentContext!,
+                        duration: const Duration(milliseconds: 500),
+                        curve: Curves.easeOut,
+                      );
+                    },
+                    child: const Tooltip(
+                      message: "Bebidas Alcóolicas e Vape",
+                      child: Text('Bebidas Alcóolicas e Vape'),
+                    ),
+                  ),
+                  TextButton(
+                    onPressed: () {
+                      Scrollable.ensureVisible(
+                        sarampo.currentContext!,
+                        duration: const Duration(milliseconds: 500),
+                        curve: Curves.easeOut,
+                      );
+                    },
+                    child: const Tooltip(
+                      message: "Sarampo",
+                      child: Text('Sarampo'),
+                    ),
+                  ),
+                  TextButton(
+                    onPressed: () {
+                      Scrollable.ensureVisible(
+                        soltarCintos.currentContext!,
+                        duration: const Duration(milliseconds: 500),
+                        curve: Curves.easeOut,
+                      );
+                    },
+                    child: const Tooltip(
+                      message: "Soltar Cintos",
+                      child: Text('Cintos off'),
+                    ),
+                  ),
 
-              children: [
-                //OS BOTÕES
-                TextButton(
-                  onPressed: () {
-                    Scrollable.ensureVisible(
-                      embarque.currentContext!,
-                      duration: const Duration(milliseconds: 500),
-                      curve: Curves.easeOut,
-                    );
-                  },
-                  child: const Tooltip(message: "Embarque", child: Text('Emb')),
-                ),
-                TextButton(
-                  onPressed: () {
-                    Scrollable.ensureVisible(
-                      abastecimento.currentContext!,
-                      duration: const Duration(milliseconds: 500),
-                      curve: Curves.easeOut,
-                    );
-                  },
-                  child: const Tooltip(
-                    message: "Abastecimento",
-                    child: Text('Abast'),
+                  TextButton(
+                    onPressed: () {
+                      Scrollable.ensureVisible(
+                        wifi.currentContext!,
+                        duration: const Duration(milliseconds: 500),
+                        curve: Curves.easeOut,
+                      );
+                    },
+                    child: const Tooltip(message: "Wifi", child: Text('Wifi')),
                   ),
-                ),
-                TextButton(
-                  onPressed: () {
-                    Scrollable.ensureVisible(
-                      bebidasAlcoolicas.currentContext!,
-                      duration: const Duration(milliseconds: 500),
-                      curve: Curves.easeOut,
-                    );
-                  },
-                  child: const Tooltip(
-                    message: "Bebidas Alcóolicas e Vape",
-                    child: Text('Vape'),
+                  TextButton(
+                    onPressed: () {
+                      Scrollable.ensureVisible(
+                        prepouso.currentContext!,
+                        duration: const Duration(milliseconds: 500),
+                        curve: Curves.easeOut,
+                      );
+                    },
+                    child: const Tooltip(
+                      message: "Preparar para o pouso",
+                      child: Text('Preparar pouso'),
+                    ),
                   ),
-                ),
-                TextButton(
-                  onPressed: () {
-                    Scrollable.ensureVisible(
-                      sarampo.currentContext!,
-                      duration: const Duration(milliseconds: 500),
-                      curve: Curves.easeOut,
-                    );
-                  },
-                  child: const Tooltip(
-                    message: "Sarampo",
-                    child: Text('Sarampo'),
-                  ),
-                ),
-                TextButton(
-                  onPressed: () {
-                    Scrollable.ensureVisible(
-                      soltarCintos.currentContext!,
-                      duration: const Duration(milliseconds: 500),
-                      curve: Curves.easeOut,
-                    );
-                  },
-                  child: const Tooltip(
-                    message: "Soltar Cintos",
-                    child: Text('Cintos off'),
-                  ),
-                ),
-              ],
-            ),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.center,
 
-              children: [
-                TextButton(
-                  onPressed: () {
-                    Scrollable.ensureVisible(
-                      wifi.currentContext!,
-                      duration: const Duration(milliseconds: 500),
-                      curve: Curves.easeOut,
-                    );
-                  },
-                  child: const Tooltip(message: "Wifi", child: Text('Wifi')),
-                ),
-                TextButton(
-                  onPressed: () {
-                    Scrollable.ensureVisible(
-                      prepouso.currentContext!,
-                      duration: const Duration(milliseconds: 500),
-                      curve: Curves.easeOut,
-                    );
-                  },
-                  child: const Tooltip(
-                    message: "Preparar para o pouso",
-                    child: Text('Pouso'),
+                  TextButton(
+                    onPressed: () {
+                      Scrollable.ensureVisible(
+                        pospouso.currentContext!,
+                        duration: const Duration(milliseconds: 500),
+                        curve: Curves.easeOut,
+                      );
+                    },
+                    child: const Tooltip(
+                      message: "Após livrar pista",
+                      child: Text('Após pouso', style: TextStyle(fontSize: 13)),
+                    ),
                   ),
-                ),
+                  TextButton(
+                    onPressed: () {
+                      Scrollable.ensureVisible(
+                        cgh.currentContext!,
+                        duration: const Duration(milliseconds: 500),
+                        curve: Curves.easeOut,
+                      );
+                    },
+                    child: const Tooltip(
+                      message: "Conexões em Cgh",
+                      child: Text('Cgh'),
+                    ),
+                  ),
 
-                TextButton(
-                  onPressed: () {
-                    Scrollable.ensureVisible(
-                      pospouso.currentContext!,
-                      duration: const Duration(milliseconds: 500),
-                      curve: Curves.easeOut,
-                    );
-                  },
-                  child: const Tooltip(
-                    message: "Após livrar pista",
-                    child: Text('Chegada', style: TextStyle(fontSize: 13)),
+                  TextButton(
+                    onPressed: () {
+                      Scrollable.ensureVisible(
+                        gru.currentContext!,
+                        duration: const Duration(milliseconds: 500),
+                        curve: Curves.easeOut,
+                      );
+                    },
+                    child: const Tooltip(
+                      message: "Conexões em Gru",
+                      child: Text('Gru'),
+                    ),
                   ),
-                ),
-                TextButton(
-                  onPressed: () {
-                    Scrollable.ensureVisible(
-                      cgh.currentContext!,
-                      duration: const Duration(milliseconds: 500),
-                      curve: Curves.easeOut,
-                    );
-                  },
-                  child: const Tooltip(
-                    message: "Conexões em Cgh",
-                    child: Text('Cgh'),
+                  TextButton(
+                    onPressed: () {
+                      Scrollable.ensureVisible(
+                        demonstracao.currentContext!,
+                        duration: const Duration(milliseconds: 500),
+                        curve: Curves.easeOut,
+                      );
+                    },
+                    child: const Tooltip(
+                      message: "Demonstração de Segurança",
+                      child: Text('Demonstração'),
+                    ),
                   ),
-                ),
 
-                TextButton(
-                  onPressed: () {
-                    Scrollable.ensureVisible(
-                      gru.currentContext!,
-                      duration: const Duration(milliseconds: 500),
-                      curve: Curves.easeOut,
-                    );
-                  },
-                  child: const Tooltip(
-                    message: "Conexões em Gru",
-                    child: Text('Gru'),
-                  ),
-                ),
-                TextButton(
-                  onPressed: () {
-                    Scrollable.ensureVisible(
-                      demonstracao.currentContext!,
-                      duration: const Duration(milliseconds: 500),
-                      curve: Curves.easeOut,
-                    );
-                  },
-                  child: const Tooltip(
-                    message: "Demonstração de Segurança",
-                    child: Text('Demo'),
-                  ),
-                ),
-
-                /*
+                  /*
                 
               ],
             ),
@@ -399,7 +397,8 @@ class _MyHomePageState extends State<MyHomePage> {
                   child: const Tooltip(message: "Filhos", child: Text('12')),
                 ),
                 */
-              ],
+                ],
+              ),
             ),
 
             //OS TEXTOS

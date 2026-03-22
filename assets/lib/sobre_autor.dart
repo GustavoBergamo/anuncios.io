@@ -112,7 +112,7 @@ class _AutorPageState extends State<AutorPage> {
               ),
               const SizedBox(height: 32),
               const Text(
-                'ENTRE EM CONTATO',
+                'CONTATO',
                 style: TextStyle(
                   fontSize: 14,
                   fontWeight: FontWeight.bold,
@@ -123,6 +123,7 @@ class _AutorPageState extends State<AutorPage> {
               Column(
                 children: [
                   const SizedBox(height: 20),
+
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
@@ -151,6 +152,7 @@ class _AutorPageState extends State<AutorPage> {
                     ],
                   ),
                   const SizedBox(height: 10),
+
                   Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
