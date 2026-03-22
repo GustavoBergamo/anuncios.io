@@ -36464,7 +36464,7 @@ N(a){var s=null,r=A.a4(a).ax,q=r.e
 r=q==null?r.c:q
 return A.a09(A.Pz(s,r,s,B.i5,A.DG(s,s,s,s,B.AU,s,s,new A.a59(a),s,s,s),B.Of),A.nX(A.ajm(A.R_(A.d([A.Ck(s,new A.ef(B.j,B.xt,A.agA(B.j,4),s,A.d([new A.hi(0,B.jK,B.l,B.FM,15)],t.sq),s,B.e5),160,s,s,160),B.J6,this.V0(a)],t.J),B.dy),B.Ao,B.ak),s,s),s)},
 V0(a){var s=this,r=null,q=A.ru(20),p=A.ru(20),o=t.J
-return new A.BI(B.hj,B.l,4,new A.cq(q,B.r),new A.dL(B.Ap,A.kr(A.R_(A.d([B.Oj,B.J8,A.Ck(A.cE("Full Stack Developer",A.bT(r,r,B.kB,r,r,r,r,r,r,r,r,14,r,r,B.y,r,r,!0,r,r,r,r,r,r,r,r),r),new A.ef(B.eq,r,r,p,r,r,B.bs),r,r,B.Aj,r),B.J7,B.Og,A.R_(A.d([B.je,A.w1(A.d([s.qZ("lib/images/email.png",new A.a54(a)),B.vW,s.qZ("lib/images/whatsapp.png",new A.a55())],o),B.aE,B.dy,B.bz),B.je,A.w1(A.d([s.qZ("lib/images/linkedin.png",new A.a56()),B.vW,s.qZ("lib/images/github.png",new A.a57())],o),B.aE,B.dy,B.bz)],o),B.aZ),B.je,B.Oe],o),B.aZ),280,250),r),r)},
+return new A.BI(B.hj,B.l,4,new A.cq(q,B.r),new A.dL(B.Ap,A.kr(A.R_(A.d([B.Oj,B.J8,A.Ck(A.cE("Full Stack Developer",A.bT(r,r,B.kB,r,r,r,r,r,r,r,r,14,r,r,B.y,r,r,!0,r,r,r,r,r,r,r,r),r),new A.ef(B.eq,r,r,p,r,r,B.bs),r,r,B.Aj,r),B.J7,B.Og,A.R_(A.d([B.je,A.w1(A.d([s.qZ("lib/images/email.png",new A.a54(a)),B.vW,s.qZ("lib/images/whatsapp.png",new A.a55())],o),B.aE,B.dy,B.bz),B.je,A.w1(A.d([s.qZ("lib/images/linkedin.png",new A.a56()),B.vW,s.qZ("lib/images/github.png",new A.a57())],o),B.aE,B.dy,B.bz)],o),B.aZ),B.je,B.Oe],o),B.aZ),300,250),r),r)},
 qZ(a,b){var s=null,r=A.ru(50),q=A.agA(B.hj,1)
 return A.ahT(!1,r,!0,A.Ck(A.adP(a,32,32),new A.ef(B.eq,s,q,s,s,s,B.e5),s,s,B.Ai,s),s,!0,s,s,s,s,s,s,b,s,s,s)}}
 A.a59.prototype={
