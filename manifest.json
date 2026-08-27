@@ -1,6 +1,6 @@
 {
-    "name": "anuncios",
-    "short_name": "anuncios",
+    "name": "trolleys",
+    "short_name": "trolleys",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
